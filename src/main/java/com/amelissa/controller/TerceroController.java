@@ -57,7 +57,7 @@ public class TerceroController {
 		 return "redirect:/list-all";
 	}
 	
-	@RequestMapping(value = "add-terceros", method = RequestMethod.POST)
+	@RequestMapping(value = "add", method = RequestMethod.POST)
 	public String addTercero(ModelMap map, @Validated terceros t, BindingResult result) {
 		service.saveTercero(t);
 		 return "redirect:/list-all";

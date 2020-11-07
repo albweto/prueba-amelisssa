@@ -6,7 +6,7 @@
    <div class="panel panel-primary">
     <div class="panel-heading">Add Tercero</div>
     <div class="panel-body">
-     <form:form method="post" modelAttribute="terceros" action="add-terceros" >
+     <form:form method="post" modelAttribute="terceros"  >
       <form:hidden path="id" />
       <fieldset class="form-group">
        <form:label path="nombre">Nombre</form:label>
